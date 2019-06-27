@@ -26,7 +26,7 @@ Each task can be in 3 states:
 
 ### Workflow:
 
-1. The manager creates a task with location [lat1, long1]
-1. The driver gets the list of the nearest tasks by submitting current location [lat2, long2]
+1. The manager creates a task with locations [lat1, long1], [lat2, long2]
+1. The driver gets the list of the nearest tasks by submitting current location [lat3, long3]
 1. Driver picks one task from the list (the task becomes assigned)
 1. Driver finishes the task (becomes done)
